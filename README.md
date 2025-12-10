@@ -366,24 +366,6 @@ Check ClamAV logs:
 sudo journalctl -u clamav-daemon -f
 ```
 
-### linux-only profile includes
-
-- All Linux/Unix malware signatures
-- Generic malware (cross-platform)
-- Script-based threats (PHP, Python, JavaScript, etc.)
-- Web-based threats (HTML, CSS)
-- Archive/compression exploits
-- PDF malware
-- Image-based exploits
-
-### linux-only profile excludes
-
-- Windows PE executable malware
-- Office macro viruses
-- Windows-specific exploits
-- Mac/iOS malware
-- Some Windows-based false positive rules
-
 ## FAQ
 
 **Q: Can I filter daily.cvd too?**  
